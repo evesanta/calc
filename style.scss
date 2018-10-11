@@ -1,0 +1,35 @@
+h1 {
+  color: #79B;
+}
+h4 {
+  background-color: #CAA;
+  width:420px;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  font-size: 40px;
+  margin: 10px 0px;
+  padding-right: 20px;
+}
+ul{
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+  border-radius: 20px;
+  background-color: rgb(68, 98, 98);
+  li{
+    list-style: none;
+    font-size: 56px;
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50px;
+  }
+  li.mozi{
+     background-color: #CAA;
+     font-size: 70px;
+  }
+}
