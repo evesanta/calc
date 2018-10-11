@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <h1>電卓</h1>
+  <h1>電卓2</h1>
   <div id="app">
     <h4>
       {{ message }}
@@ -20,6 +20,7 @@
       <li v-for="botan in botans" @click="input(botan)" :class="isNaN(botan) && botan != '.' ? 'mozi':''">
         {{botan}}
       </li>
+
     </ul>
   </div>
 </body>
